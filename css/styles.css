@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #106C54;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
@@ -33,7 +33,7 @@
     background: var(--secondary-color);
     padding: 20px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: center;
   }
@@ -103,4 +103,28 @@
   .email-link:hover {
     text-decoration: underline;
   }
-  
+  @media (max-width: 390){
+    h1{
+      text-align: center;
+      font-size: 40px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 32px;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  .container-fluid{
+    background: var(--primary-color);
+  }
+  .navbar-brand{
+    color: var(--secondary-color);
+  }
+  .nav-link{
+    color: var(--secondary-color);
+  }
+  .navbar-toggler{
+    background: var(--secondary-color);
+  }
